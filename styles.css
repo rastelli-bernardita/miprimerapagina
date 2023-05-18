@@ -1,6 +1,7 @@
 body {
     background-color:#E3E9F7;
     color: #17086C;
+    margin: 0%;
 }
 h1 {
     font-family: 'Arial', sans-serif;
@@ -15,7 +16,10 @@ p {
     margin: 20px;
 }
 .container-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0 15px 15px 0;
     display: flex;
+    margin: 0%;
     padding: 10px;
     height: 50px;
     background-color: #17086C;
@@ -24,6 +28,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-weight: 800;
 }
 .brand {
     display: flex;
@@ -51,7 +56,7 @@ a {
         display: none;
     }
     .button-menu-toggle {
-    display: block;
+        display: block;
         background-color: #C4D1EC;
         border:none;
         border-radius: 50px;
@@ -99,9 +104,11 @@ section {
 footer {
     align-content: center;
     background-color: #D2DFF7;
+    border-radius: 15px 0 0 15px;
     display: flex;
     flex-wrap: wrap;
     min-height: 200px;
+    margin-top: 2%;
 }
 footer p {
     text-align: center;
