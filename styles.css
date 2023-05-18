@@ -1,6 +1,6 @@
 body {
-    background-color: aliceblue;
-    color: blue;
+    background-color:#E3E9F7;
+    color: #17086C;
 }
 h1 {
     font-family: 'Arial', sans-serif;
@@ -18,7 +18,7 @@ p {
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: black;
+    background-color: #17086C;
 }
 .navbar {
     display: flex;
@@ -36,7 +36,7 @@ li {
     list-style-type: none;
 }
 a {
-    color: white;
+    color: #C4D1EC;
     text-decoration:none;
 }
 .nav-links {
@@ -52,7 +52,7 @@ a {
     }
     .button-menu-toggle {
     display: block;
-        background-color: white;
+        background-color: #C4D1EC;
         border:none;
         border-radius: 50px;
         padding: 0 24px;
@@ -63,7 +63,7 @@ a {
     .nav-links.nav-links-responsive {
         position: absolute;
         display: flex;
-        background-color: rgba(20,20,20,0.95);
+        background-color: #17086C;
         width: 100%;
         height: 100%;
         top: 70px;
@@ -82,6 +82,7 @@ main {
     text-align: center;
 }
 section {
+    color: #6431E9;
     width: 100%;
 }
 .container {
@@ -97,7 +98,7 @@ section {
 }
 footer {
     align-content: center;
-    background-color: rgb(188, 219, 245);
+    background-color: #D2DFF7;
     display: flex;
     flex-wrap: wrap;
     min-height: 200px;
